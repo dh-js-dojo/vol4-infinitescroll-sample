@@ -8,8 +8,6 @@ $(function () {
         var scrollPosition = $(window).height() + scroll;
         var contentHeight = $(document).height();
 
-        console.log(contentHeight);
-
         if (scrollPosition > contentHeight - 50) {
             $('.loading').css({'display': 'block'});
             setTimeout(function(){
